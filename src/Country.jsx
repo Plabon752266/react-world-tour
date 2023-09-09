@@ -19,8 +19,10 @@ const Country = ({country}) => {
             <p> Region: {region}  </p>
             <p>Capital City : {capital} </p>
             <p>Populaton of the country: {population} </p>
-            <button onClick={handleClick} className="btn">Button</button>
+            <button onClick={handleClick} className="btn">visit</button>
             {visited && 'i have already visited'}
+
+            {/*ternary operator  visited? 'i have already visited' : 'i want to go' */}
         </div>
     );
 };
